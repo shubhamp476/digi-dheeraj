@@ -1,0 +1,6 @@
+# Allow all search engine crawlers full access to the site.
+User-agent: *
+Allow: /
+
+# Point crawlers to the sitemap for better indexing.
+Sitemap: https://digidheeraj.com/sitemap.xml
