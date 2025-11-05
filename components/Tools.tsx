@@ -13,7 +13,7 @@ const Tools: React.FC = () => {
         </p>
         <div className="mt-16 flex justify-center items-center">
           <img 
-            src="../public/BestVideoEditorapps.webp" 
+            src="../BestVideoEditorapps.webp" 
             alt="Editing software logos: Adobe Premiere Pro, After Effects, Photoshop"
             className="w-full max-w-3xl h-auto"
             loading="lazy"

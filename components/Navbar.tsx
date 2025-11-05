@@ -40,7 +40,7 @@ const Navbar: React.FC<NavbarProps> = ({ navigateTo }) => {
           DIGIDHEERAJ
         </a>
 
-        {/* Desktop Menu */}
+        
         <ul className="hidden md:flex space-x-8 items-center">
           <li>
             <a
@@ -78,7 +78,7 @@ const Navbar: React.FC<NavbarProps> = ({ navigateTo }) => {
           </li>
         </ul>
 
-        {/* Mobile Menu Button */}
+        
         <button
           className="md:hidden flex flex-col justify-center items-center w-10 h-10 bg-accent rounded-md focus:outline-none"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -101,7 +101,7 @@ const Navbar: React.FC<NavbarProps> = ({ navigateTo }) => {
         </button>
       </nav>
 
-      {/* Mobile Dropdown Menu */}
+     
       {menuOpen && (
         <div className="md:hidden bg-secondary text-center py-4 space-y-4">
           <a

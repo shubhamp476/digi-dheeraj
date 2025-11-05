@@ -24,17 +24,17 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ src, aspectRatio = '16/9' }) 
 );
 
 const Portfolio: React.FC = () => {
-  const horizontalVideos = ['../public/BestVideoEditor1.hevc.mp4', '../public/BestVideoEditor2.hevc.mp4'];
+  const horizontalVideos = ['../BestVideoEditor1.hevc.mp4', '../BestVideoEditor2.hevc.mp4'];
   const verticalVideos = [
-    { src: '../public/BestVideoEditor3.hevc.mp4', category: 'Videography' },
-    { src: '../public/BestVideoEditor4.hevc.mp4', category: 'Videography' },
-    { src: '../public/BestVideoEditor5.hevc.mp4', category: 'Videography' },
-    { src: '../public/BestVideoEditor7.hevc.mp4', category: 'Mountain' },
-    { src: '../public/BestVideoEditor11.hevc.mp4', category: 'Mountain' },
-    { src: '../public/BestVideoEditor8.hevc.mp4', category: 'Mountain' },
-    { src: '../public/BestVideoEditor9.hevc.mp4', category: 'Adventure' },
-    { src: '../public/BestVideoEditor10.hevc.mp4', category: 'Adventure' },
-    { src: '../public/BestVideoEditor6.hevc.mp4', category: 'Adventure' },
+    { src: '../BestVideoEditor3.hevc.mp4', category: 'Videography' },
+    { src: '../BestVideoEditor4.hevc.mp4', category: 'Videography' },
+    { src: '../BestVideoEditor5.hevc.mp4', category: 'Videography' },
+    { src: '../BestVideoEditor7.hevc.mp4', category: 'Mountain' },
+    { src: '../BestVideoEditor11.hevc.mp4', category: 'Mountain' },
+    { src: '../BestVideoEditor8.hevc.mp4', category: 'Mountain' },
+    { src: '../BestVideoEditor9.hevc.mp4', category: 'Adventure' },
+    { src: '../BestVideoEditor10.hevc.mp4', category: 'Adventure' },
+    { src: '../BestVideoEditor6.hevc.mp4', category: 'Adventure' },
   ];
 
   return (
