@@ -41,7 +41,7 @@ const About: React.FC = () => {
 
         <div className="flex justify-center">
           <img
-            src="../BestVideoEditor01.png"
+            src="../BestVideoEditor01.webp"
             alt="Dheeraj Jangra, a professional video editor for hire"
             className="rounded-lg shadow-2xl w-full max-w-sm"
             loading="lazy"
